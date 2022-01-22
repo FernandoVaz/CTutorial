@@ -1,0 +1,35 @@
+In this lesson, we will dive a little bit deep on assembly language, basically rewriting the hello world application in a more rustic language.
+
+Note that we will be using assembly x86
+
+Lets begin.
+
+This is not intended to teach assembly, so i will resume just the basics in order to the files here be understandable
+
+In assembly, comments are defined by ;
+
+The data section is used to declare and initialize data or constants - You can declare various file names, buffer sizes in this sections. Note: Constants does not get modified when your program is running, means it does not modify at runtime;
+
+the BSS sections we will not need, but it is used to declare variables
+
+The text section is where the code will be written
+generally, it starts with global _start, which tells the kernel (OS big brains, basically), where the program will start.
+
+The syntax follows something like this:
+[label] mnemonic [operands] [;comment]
+
+simple, right?
+
+With this knowledge, try to understand the hello_world.asm contained in this section
+
+------------ wont go into details below this line, used for reference and self study -----------
+
+REF:
+
+https://www.tutorialspoint.com/assembly_programming/index.htm
+https://www.youtube.com/watch?v=HgEGAaYdABA
+
+
+COMMANDS TO GENERATE EXECUTABLE
+nasm -f elf32 -o hello_world.o hello_world.asm
+ld -m elf_i386 -o hello_world hello_world.o
