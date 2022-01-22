@@ -1,0 +1,14 @@
+Hello there.
+
+This is a git commit course of the language C, its purpose is to help you navigate throught the course learning both git and C language without any audio-visual representation, so you could listen to some music at your leasure ;)
+
+Iam using ubuntu to write this up. With sublime text as an editor and sometimes switching to neoVim.
+
+This is a personal project so i dont really care what the results are going to be.
+
+
+Well, lets get going.
+
+First, we need to make sure we have compilers installed on our OS (which stands for operational system, btw). There are a lot of compilers nowadays for the language C, so your first task is to figure this out. 
+
+Tip: Try typing gcc on your terminal to see if there is an interesting output
