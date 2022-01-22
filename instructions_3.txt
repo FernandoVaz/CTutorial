@@ -1,0 +1,19 @@
+This lecture will be dense. I will explain this hello world program in very detailed way, so put a hard rock song and lets go.
+
+
+First off, lots of people thing that programming is simple. It is absolutely not simple and just an hello World program has a lot under it. The way programming works is just multiple translations between binary (0 and 1) to something human readable, the computer does not care about your C code, there are lots of people that put hard work into making those languages the best for humans to read, debug errors and prevent bizarre code executions (compiler errors, etc), you should be grateful for their work.
+
+To show a little bit of that, there is a command on linux that disassembles an executable and shows the assembly code underneath it, lets study it a little.
+
+
+try to type 
+objdump --disassemble-all a.out
+
+This commit will have the helloWorldDisassemble.txt which contains this output.
+
+Now. Just imagine writing your simple hello world again in assembly.
+
+Well thats what we are going to do next, in order to learn humility (and computer science!)
+
+Your task now is to think about your life decisions.
+There is time yet to be a doctor.
