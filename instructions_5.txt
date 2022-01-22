@@ -1,0 +1,27 @@
+In this lecture, or instruction memorial. Ive installed clang in order to make an assembly hello world.c with less instructions, the objdump before took everything from the libs and also dumped into one file. So in this tutorial you'll have an simpler assembly file, displaying the same hello world.
+
+But enough of assembly for now, lets get back to the C language. Lets write some more interesting code
+
+When you type a word in the C programming language you are actually defining a type, which is String.
+String is not a byte that a computer understands, again is some keyword made for humans to understand what it does. We can transform the strings used in the hello world example into a type that computers understand. For that i'll use a string decoder that i wont get into details.
+
+lets consider the String
+"Hello World"
+
+Lets get the HEX format for it, running the following command (TIP: Running man <command> on linux will open up the manual page for that command, do your search)
+
+echo "Hello World" | xxd
+
+This will give the following output
+
+00000000: 4865 6c6c 6f20 576f 726c 640a            Hello World.
+
+The 4865 6c6c 6f20 576f 726c 640a is the hexadecimal representation of the bytearray that represents Hello World. What that means is somewhere in your memory, a 11 byte (more or so) gets used to represent that Hello World String.
+
+The next program we will develop, we will write a C code that prints stuff without the print() command. Lets see how tricky it is.
+
+Your task now is to convert the HEX to BINARY of the previous hello World.
+
+REF
+https://stackoverflow.com/questions/34076160/how-to-convert-a-string-into-hexadecimal-in-bash
+
