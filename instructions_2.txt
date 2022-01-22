@@ -1,0 +1,13 @@
+The HelloWorld.c file contains your first program that should run in your computer.
+
+Your C program consists of some libs, a print command that is self explanatory and the return 0, which should be an arcane number for you at this moment. 
+
+Dont worry. Nobody cares about those returns nowadays, but the return 0 means that it returned successfully. By convention, if you return something other than 0, it means there was an error during its execution. In a big software development industry, it may have integer codes chart with explanation of what happened, its better than segmentation faults.
+
+Well, explaining a little of those includes, the .h files means they are headers, which is important for the way the C language works. I wont explain it right now, its complex. Start simple. But in short, those files indicates that you are using code that someone else wrote and is asking the compiler to pack everything up in one executable file.
+
+Your first task is to compile and execute this helloWorld file. See that gcc command earlier and check if it helps. Try something like gcc helloWorld.c
+
+This will probably output another file, with an .out file. What that means? Google it! 
+
+Next instructions i will explain it.
